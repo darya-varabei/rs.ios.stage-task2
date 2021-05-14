@@ -10,7 +10,7 @@ UInt8 ReverseInteger(UInt8 n) {
         final_n = final_n | (n & 1) << (7 - counter);
         n >>= 1;
         counter++;
-        if (counter == 7){
+        if (counter == 7){ 
             converted = true;
         }
     }

@@ -15,7 +15,7 @@
         if(number > 255){
             return @"The numbers in the input array can be in the range from 0 to 255.";
         }
-        if(number < 0){
+        if(number < 0){ 
             return @"Negative numbers are not valid for input.";
         }
     }

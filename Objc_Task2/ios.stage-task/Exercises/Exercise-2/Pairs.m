@@ -10,7 +10,7 @@
             if ((array[i].integerValue - array[j].integerValue == number.integerValue) || (array[j].integerValue - array[i].integerValue == number.integerValue)){
                 counter++;
             }
-        }
+        } 
     }
     return counter;
 }
